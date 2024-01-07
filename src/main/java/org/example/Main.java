@@ -89,5 +89,6 @@ public class Main {
         if (input.equals("Y")) {
             startGame();
         }
+        scanner.close();
     }
 }
