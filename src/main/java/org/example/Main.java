@@ -39,7 +39,6 @@ public class Main {
         };
     }
 
-
     //start game
     public static void startGame() {
         for (int i = 0; i < 5; i++) {
@@ -80,7 +79,7 @@ public class Main {
     public static void main(String[] ars) {
         //start game prompt
         System.out.println("Welcome to Hi-Low Royale! Guess whether a card will be higher or lower than the given card.");
-        System.out.println("Survive five rounds and you are the winner! Are you ready to play? Enter Y/N");
+        System.out.println("Survive five rounds and you are the winner! Are you ready to play? Enter Y = Yes, N = No");
         String input = scanner.nextLine().toUpperCase();
         if (!input.equals("Y") && !input.equals("N")) {
             System.out.println("Invalid input! Please try again!");
